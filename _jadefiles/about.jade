@@ -1,0 +1,39 @@
+section#about.container.content-section.text-center
+  .row
+    .col-lg-8.col-lg-offset-2
+      h2 A Propos
+    .col-lg-8.col-lg-offset-2
+      img.img-circle(src='/assets/img/face.jpg', alt='...')
+    .col-lg-12
+      #about-carousel.carousel.slide(data-ride='carousel', data-interval='false')
+        // Indicators
+        ol.carousel-indicators
+          li.active(data-target='#about-carousel', data-slide-to='0')
+          li(data-target='#about-carousel', data-slide-to='1')
+          li(data-target='#about-carousel', data-slide-to='2')
+          li(data-target='#about-carousel', data-slide-to='3')
+        // Wrapper for slides
+        .carousel-inner(role='listbox')
+          .item.active
+            h5 Le Design d’Intérieur
+            p.text-center  The key to creating great interiors is a really strong and coherent core design concept which will add aesthetic, spatial and commercial value to buildings. Our interior design team, working on DCM projects, or independently for other clients, delivers schemes whose design is always based on a highly distinctive design language. It’s a process of exploration and communication, which draws from the architecture of the buildings involved, the wider context, and from significant cultural, commercial, or historical factors. The detailed design, and the selection of materials, furniture, fittings and lighting flows from this strong starting point. Our interior designers work closely with clients and architects in an integrated process, from first concepts to detailed onsite supervision of interior installations. Designing great interiors is one thing. Bringing them to reality to maximum effect requires accurate, post-design follow-through. Our team always translates its interior schemes into highly detailed work packages, sample boards, and the full range of specification documentation for complete fit-outs, tenders, and construction.
+
+          .item
+            h5 Le Client
+            p.text-center  We believe that synergy between designerand client is essential for any project’s success. We need to know and understand our clients, their lifestyles and expectations for their home, to be able to create environments that reflect their unique personalities and are tailored specifically to their needs. Our clients are involved in every step of the process and we help them to visualize the final outcome with drawings and renderings of each space. We collaborate closely with architects, fabricators, artisans and other professional consultants to assure that all of the projects run smoothly, cost‐effectively and are completed in a timely manner. Ultimately, our goal is to create unique and individual spaces that feel both exciting and timeless. 
+          
+          .item
+            h5 La Réalisation
+            p.text-center  The team has extensive professional experience and works efficiently within specific budgets and time frames. We always ensure that all possible costs and obstacles are identified and discussed before work commences on a project. Presentations are created using a combination of 3D visuals, AutoCAD drawings and presentation boards created from our extensive in-studio reference and sample libraries. We always ensure that the skeleton of the building is in good shape before dressing it. As much of our work is in based in central London, we have a wealth of experience with old and listed buildings. Collaboration with the on-site team is essential so site visits are frequent and every detail of a completed project is quality checked before we hand it over to the client as the finished product, their home.
+            
+          .item
+            h5 Les Partenaires
+            p.text-center  As well as visiting the main European trade shows including London, Milan and Paris, we are in close contact with the best ateliers and workshops, always looking for the most exquisite new and vintage products. To ensure our clients are guaranteed the best value, we pass on all trade prices on furnishings directly to them. We also have access to an enviable collection of talented craftsmen and accomplished tradesmen, many of whom have worked with us for a number of years.
+            
+        // Controls
+        a.left.carousel-control(href='#about-carousel', role='button', data-slide='prev')
+          span.glyphicon.glyphicon-chevron-left(aria-hidden='true')
+          span.sr-only Previous
+        a.right.carousel-control(href='#about-carousel', role='button', data-slide='next')
+          span.glyphicon.glyphicon-chevron-right(aria-hidden='true')
+          span.sr-only Next

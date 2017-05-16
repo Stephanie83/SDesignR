@@ -1,0 +1,84 @@
+
+section#services.container.content-section.text-center
+  .row
+    .col-lg-8.col-lg-offset-2
+      h2 Prestations
+  .row
+    .col-xs-12
+      h5 Méthode
+        
+  .container.text-center
+    .row
+      .col-xs-12.col-sm-10.col-sm-offset-1(role='tabpanel')
+        .col-xs-4.col-sm-12
+          // Nav tabs
+          ul#nav-tabs.nav.nav-justified(role='tablist')
+            li.active(role='presentation')
+              a(href='#dustin', aria-controls='dustin', role='tab', data-toggle='tab')
+                .tab-item 
+                  h6 Rencontre
+            //i.fa.fa-arrow-right(aria-hidden='true')
+            li(role='presentation')
+              a(href='#daksh', aria-controls='daksh', role='tab', data-toggle='tab')
+
+                .tab-item 
+                  h6 Idées & Concept
+            li(role='presentation')
+              a(href='#anna', aria-controls='anna', role='tab', data-toggle='tab')
+                .tab-item 
+                  h6 Design & Création
+            li(role='presentation')
+              a(href='#wafer', aria-controls='wafer', role='tab', data-toggle='tab')
+                .tab-item 
+                  h6 Réalisation
+        .col-xs-8.col-sm-12
+          // Tab panes
+          #tabs-collapse.tab-content
+            #dustin.tab-pane.fade.in.active(role='tabpanel')
+              .tab-inner
+                p.lead
+                  | Etiam tincidunt enim et pretium efficitur. Donec auctor leo sollicitudin eros iaculis sollicitudin.
+                hr
+                p
+                  strong.text-uppercase Dustin Lamont
+                p
+                  em.text-capitalize  Senior web developer
+                  |  at 
+                  a(href='#') Apple
+            #daksh.tab-pane.fade(role='tabpanel')
+              .tab-inner
+                p.lead
+                  | Suspendisse dictum gravida est, nec consequat tortor venenatis a. Suspendisse vitae venenatis sapien.
+                hr
+                p
+                  strong.text-uppercase Daksh Bhagya
+                p
+                  em.text-capitalize  UX designer
+                  |  at 
+                  a(href='#') Google
+            #anna.tab-pane.fade(role='tabpanel')
+              .tab-inner
+                p.lead
+                  | Nullam suscipit ante ac arcu placerat, nec sagittis quam volutpat. Vestibulum aliquam facilisis velit ut ultrices.
+                hr
+                p
+                  strong.text-uppercase Anna Pickard
+                p
+                  em.text-capitalize  Master web developer
+                  |  at 
+                  a(href='#') Intel
+            #wafer.tab-pane.fade(role='tabpanel')
+              .tab-inner
+                p.lead
+                  | Fusce erat libero, fermentum quis sollicitudin id, venenatis nec felis. Morbi sollicitudin gravida finibus.
+                hr
+                p
+                  strong.text-uppercase Wafer Baby
+                p
+                  em.text-capitalize  Web designer
+                  |  at 
+                  a(href='#') Microsoft
+
+  .row
+    .col-xs-12
+      h5 Prestations
